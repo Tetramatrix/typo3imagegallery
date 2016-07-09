@@ -1,0 +1,149 @@
+.tx-chbildergalerie-pi1 form div { c
+    clear:none;
+    padding: 0px;
+};
+.tx-chbildergalerie-pi1  .slider-content {
+ /*   margin: 0 auto; */
+    width: 860px;
+    height: 340px;
+    padding: 0px;
+    margin-left: 0px;		  /* bitte nicht ändern */
+    margin-top: 0px;		  /* bitte nicht ändern */
+    margin-bottom: 20px;		  /* bitte nicht ändern */
+    margin-right: 0px;		  /* bitte nicht ändern */
+    overflow: visible;
+    z-index: 1; 
+}
+
+.tx-chbildergalerie-pi1 .slider-content .slider {
+    width: 860px;
+    height: 340px;
+    /* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.tx-chbildergalerie-pi1 .slider-content .slider img {
+}
+
+.tx-chbildergalerie-pi1 .slider-content div {
+    width: 860px;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+.tx-chbildergalerie-pi1 .slider-content ul.slider > li {
+    list-style: none outside none;
+    padding-left: 0;
+}
+.tx-chbildergalerie-pi1 .slider-content .slider li {
+    background: -moz-linear-gradient(left center , #F1F1F1 0%, #FFFFFF 80%) repeat scroll 0 0 transparent;
+    float: left;
+    height: 340px;
+    width: 860px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+.tx-chbildergalerie-pi1 .slider-content .slider, .slider li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.tx-chbildergalerie-pi1 .slider-content span.prev, .slider-content span.next {
+    background: url("../res/iconsprite.png") no-repeat scroll 0 -210px #FFFFFF;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    opacity: 0;
+    position: absolute;
+    top: 170px;
+    width: 30px;
+    z-index: 15;
+}
+.tx-chbildergalerie-pi1 .slider-content span.next {
+    background: url("../res/iconsprite.png") no-repeat scroll 0 -180px #FFFFFF;
+    right: 0;
+    z-index: 100;
+}
+.tx-chbildergalerie-pi1 .slider-content blockquote {
+    left: 370px;
+    position: absolute;
+    top: 258px;
+    width: 480px;
+    height: 80px;
+    background-color: #000000;
+}
+.tx-chbildergalerie-pi1 .slider-content blockquote p {
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 10px;
+    margin: 0;
+}
+.tx-chbildergalerie-pi1 .slider-content blockquote cite {
+    color: #FFFFFF;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 14px;
+    margin-top: 5px;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+.tx-chbildergalerie-pi1 .screen .textbox
+{
+    color: #FFFFFF;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+    text-align: left;
+    background-color: #000000;
+    width:190px;
+    height:20px;
+}
+
+.tx-chbildergalerie-pi1 .slider-content blockquote 
+{
+    color: #FFFFFF;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 8px;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 0;
+    text-align: left;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+#tx-chbildgalerie-pi1 a.back_button {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    height: 12px;
+    line-height: 12px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#tx-chbildgalerie-pi1 a.back_button {
+    bottom: 0;
+    position: relative;
+}
+
+#tx-chbildgalerie-pi1  a.back_button:hover {
+    background: none repeat scroll 0 0 #555555;
+}
+.screen masonry-brick { width: 213px !important; height:129px !important;}
+/* #container {height: auto !important;} */
